@@ -1,0 +1,6 @@
+Type the following:
+
+$ vim src/conf-cc
+Then append the following to the first line (which starts with “gcc”…):
+
+ -include /usr/include/errno.h
